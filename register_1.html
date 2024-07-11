@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Set the title of the page -->
+    <title>Online Clinic Healthcare System - Register</title>
+    <!-- Link to the CSS file for styling -->
+    <link rel="stylesheet" href="css/style-reg.css">
+  </head>
+  <body>
+    <!-- Create a container to hold the page content and center it horizontally -->
+    <div class="container">
+      <!-- Create a form section for the registration form -->
+      <div class="form">
+
+        <form action="process-reg.php" method="post">
+      <!-- Create a header section for the logo and title of the page -->
+        <div class="header">
+        <!-- Insert the title of the page -->
+        <h1>Online Clinic Healthcare System</h1>
+        <!-- Insert the logo image and add alternative text -->
+      <div class="logo">
+        <img src="resource/logo.jpg" alt="Campus Clinic Logo">
+        </div>
+          <!-- Create a heading for the form -->
+          <h2>Register</h2>
+      </div>
+          <!-- Create input fields for the user's first name, last name, email, and password -->
+          <label for="first_name">Full Name:</label>
+          <input type="text" id="f_name" name="f_name"><br><br>
+
+          <label for="text">User Id:</label>
+          <input type="text" id="userm" 
+            name="userm" required><br><br>
+            
+          <label for="text">Email:</label>
+          <input type="text" id="usereml" 
+            name="usereml" required><br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="passwordr" name="passwordr" required><br><br>
+
+          <label for="password">Confirm Password:</label>
+          <input type="password" id="confirm_pass" 
+          name="confirm_pass"><br><br>
+
+          <!-- Create a submit button for the form -->
+          <input type="submit" value="Register">
+
+       <div class="login-link">
+          Already have an account? <a href="index.php">Log in</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
