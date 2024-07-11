@@ -1,0 +1,184 @@
+
+/* Style the header section for the logo and title */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+
+/* Style the title of the page */
+.header h1 {
+  font-size: 36px;
+  margin-top: 10px;
+  color: #134994;
+}
+
+/* Style for container that wraps the form */
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #fff; 
+    padding: 30px;
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px #999; 
+}
+
+/* Style for logo image */
+
+/* Style for heading */
+h1 {
+    text-align: center; 
+    color: #134994; 
+}
+
+/* Style for labels in form */
+form label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+/* Style for text inputs in form */
+form input[type="text"],
+form input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border-radius: 3px; 
+    border: none; 
+}
+
+/* Style for submit button in form */
+form input[type="submit"] {
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 3px; 
+    border: none; 
+    background-color: #134994; 
+    color: #fff; 
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
+/* Style for submit button on hover */
+form input[type="submit"]:hover {
+    background-color: #1338be; 
+}
+
+/* Style for register link */
+.register-link {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+/* Style for paragraph element in register link */
+.register-link p {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+/* Style for anchor element in register link */
+.register-link a {
+    color: #134994; 
+    text-decoration: none; 
+    border-bottom: 2px solid #134994; 
+    transition: all 0.3s ease-in-out; 
+}
+
+
+/*top box */
+.topbox{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buton{
+    margin-left: 80%;
+}
+.logo-container img {
+    height: 60px;
+    margin:auto;
+
+}
+
+
+.parap h1{
+    text-align:center;
+    color: #000000;
+    font-size: 24px;
+    margin: auto;
+}
+
+.logz {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 300px;
+	width: 300px;
+}
+.frontpage {
+    margin: 50px auto;
+    align-content: center;
+	text-align: center;
+	font-family: sans-serif;
+}
+.frontpage h1{
+	color: #f78040;
+}
+.frontpage h2, h3{
+	color: #134994;
+}
+
+.navbar{
+	background: #134994; 
+	font-family: calibri; 
+	padding-right: 15px; 
+	padding-left: 15px;
+}
+.navdiv{
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+}
+.welcome a{
+	font-size: 35px; 
+	font-weight: 600; 
+	color: white;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+li{
+	list-style: none; 
+	display: inline-block;
+}
+li a{
+	color: white; 
+	font-size: 18px; 
+	font-weight: bold; 
+	margin-right: 25px;
+}
+button{
+    color: #134994; 
+	font-weight: bold; 
+	font-size: 15px;
+	background-color: #f78040;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px; 
+	padding: 10px; 
+	width: 150px;
+}
+
+
+
+

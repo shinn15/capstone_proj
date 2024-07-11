@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+
+/* body color/image */
+.bodybd{
+	height: 110%;
+	width: 110%;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.1),
+		rgba(0, 0, 0, 0.1)),url(./resource/ntc_f2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+
+}
+
+/* page title */
+.title_p{
+	width: 100%;
+	color:rgba(0, 0, 0, 1.0) ;
+	margin: 5px;
+}
+
+/* box form */
+.box_form{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	right:30px ;
+	margin: 6% auto;
+	background-color:rgba(0, 0, 255, 0.3);/* color blue with opacity 0.3 */
+	padding: 10px;
+	/*overflow: hidden*/;
+
+}
+
+
+/* button box position */
+.button_box{
+	width: 220px;
+	margin: 35px auto;
+	top: 350px;
+	right: 20px;
+	position: relative;
+	
+}
+
+/* login and register button */
+.to_btn{
+	padding: 10px 20px;
+	background: linear-gradient(to right, #1010ff,#1010ff);
+	border: 0;
+	left: 50px;
+	position: relative;
+}
+
+#btno{
+	
+	position: relative;
+	width: 110px;
+	height: 100%;
+	
+	border-radius: 30px;
+	
+
+}
+
+/* text box position */
+.input_txt{
+	bottom: 120px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+/* user name and password position */
+.input_box{
+	width: 100%;
+	padding: 5px 0;
+	margin: 5px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+
+}
+
+/* submit button/login button */
+.submit_b{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #1010ff,#1010ff);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+
+}
+
+/* remember me box position */
+.check_b{
+	margin: 30px 10px 30px 0;
+}
+/* remember me text */
+.span{
+	color: #777;
+	font-size: 12px;
+	position: absolute;
+}
+
+

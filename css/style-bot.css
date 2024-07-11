@@ -1,0 +1,152 @@
+/* Set the background image for the page and center it */
+body {
+ /* background-image: url("resource/background.jpg");*/
+  background-color: #FFFFFF; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the container element and set its width */
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+/* Style the header section for the logo and title */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+/* Style the logo image */
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Style the title of the page */
+.header h1 {
+  font-size: 36px;
+  margin-top: 10px;
+  color: #1338be;
+}
+
+/* Style the form section */
+.form {
+  margin-top: 50px;
+}
+
+/* Style for logo image */
+.logo img {
+    display: block; /* Set display property to block to center image */
+    margin: 0 auto; /* Center image horizontally */
+    max-width: 200px; /* Set maximum width of image */
+}
+
+
+
+
+/*bot*/
+form {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #888888;
+  
+}
+.botshow{
+  height:500px;
+  width:1275px;
+  overflow:scroll;/*scrooll*/
+
+}
+
+/* Chat containers */
+.bot {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+
+
+}
+
+.user {
+  border: 2px solid #980000 ;
+  background-color: #A8A8A8;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+
+
+}
+
+
+
+/*for button*/
+button {
+  background-color: blue;/*make background tranbarent*/
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+/*chat hider*/
+.hid {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: none;/*hide the chat*/
+
+}
+
+
+
+
+/*inventory table*/
+
+h2 {
+text-align: center;
+color: #1338be;
+margin-bottom: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+th {
+background-color: #1338be;
+color: #FFEFD5;/*white*/
+padding: 10px;
+text-align: left;
+}
+td {
+border: 1px solid #1338be;
+padding: 10px;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+tr:hover {
+background-color: #e1e1e1;
+}

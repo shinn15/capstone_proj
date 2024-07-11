@@ -1,0 +1,134 @@
+/* Set global styles */
+body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /*background-image: url('resource/background.jpg');*/
+  background-color: #FFFFFF; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Style header section */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.logo-container h1 {
+  color: #134994;
+  font-size: 24px;
+  margin: auto;
+}
+
+.profile-container img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+/* Style navigation section */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #134994;
+  color:#ffffff;
+  overflow: hidden;
+}
+
+nav li {
+  color:#ffffff;
+  float: left;
+}
+
+nav li a {
+  display: block;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+nav li a:hover {
+background-color: #ddd;
+}
+
+/* Style main section */
+main {
+padding: 20px;
+margin-top: 20px;
+background-color: white;
+border-radius: 10px;
+}
+
+main h2 {
+color: #134994;
+font-size: 32px;
+margin-top: 0;
+}
+
+main h3 {
+color: #134994;
+font-size: 24px;
+margin-top: 20px;
+}
+
+main p {
+font-size: 18px;
+}
+
+table {
+font-size: 18px;
+border-collapse: collapse;
+width: 100%;
+margin-top: 20px;
+}
+
+table td, table th {
+text-align: left;
+padding: 8px;
+border-bottom: 1px solid #ddd;
+color: #ffffff;
+}
+
+table th {
+background-color: #134994;
+color: #ffffff;
+}
+
+/* Style footer section */
+footer {
+background-color: #134994;
+color: white;
+text-align: center;
+padding: 10px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+/* CSS for logout tab */
+.logout-content {
+  padding: 20px;
+}
+

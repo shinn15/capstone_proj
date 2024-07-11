@@ -1,0 +1,142 @@
+/* Set the background image for the page and center it */
+body {
+  /*background-image: url("resource/background.jpg");*/
+  background-color: #FFFFFF; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the container element and set its width */
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+/* Style the header section for the logo and title */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+/* Style the logo image */
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Style the title of the page */
+.header h1 {
+  font-size: 36px;
+  margin-top: 10px;
+  color: #134994;
+}
+
+/* Style the form section */
+.form {
+  margin-top: 50px;
+}
+
+/* Style for logo image */
+.logo img {
+    display: block; /* Set display property to block to center image */
+    margin: 0 auto; /* Center image horizontally */
+    max-width: 200px; /* Set maximum width of image */
+}
+/* Style the form element */
+form {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #888888;
+}
+
+/* Style the heading of the form */
+h2 {
+  color: #1338be;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Style the labels for the input fields */
+label {
+font-size: 18px;
+margin-bottom: 10px; /* Add margin below label */
+    font-weight: bold; /* Set font weight */
+    color: #333; /* Set color of text */
+}
+
+/* Style the input fields */
+input[type="text"], input[type="password"] {
+    
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+background-color: #134994;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+font-size: 18px;
+cursor: pointer;
+width: 100%
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+background-color: #134994;
+}
+
+/* Style for register link */
+.login-link {
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Add margin on top */
+}
+
+/* Style for paragraph element in register link */
+.login-link p {
+    display: inline-block; /* Set display property to inline-block to align with link */
+    margin-right: 10px; /* Add margin on right */
+}
+
+/* Style for anchor element in register link */
+.login-link a {
+    color: #134994; /* Set color of link */
+    text-decoration: none; /* Remove underline */
+    border-bottom: 2px solid #134994; /* Add border on bottom */
+    transition: all 0.3s ease-in-out; /* Add transition effect */
+}
+
+
+
+/*for additem and updateitem inventory*/
+button {
+  background-color: #134994;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/*for instruction*/
+p{
+
+  color: red;
+  text-align: right;
+}

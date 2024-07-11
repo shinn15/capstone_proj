@@ -1,0 +1,97 @@
+
+body{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+/*background-image: url('resource/background.jpg');*/
+background-color: #FFFFFF; 
+}
+
+
+
+/*button*/
+
+.buto {
+  background-color: #134994;/*make background tranbarent*/
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/*
+a:hover, a:active {
+  background-color: red;
+}
+*/
+.na_b{
+  color: white;
+  background:red;
+  text-align: center;
+  padding: 5px 15px;
+  display: inline-block;
+  text-decoration: none;/*remove underscore*/
+}
+
+
+.appo_b{
+  color: white;
+  background:green;
+  text-align: center;
+  padding: 5px 15px;
+  display: inline-block;
+  text-decoration: none;/*remove underscore*/
+}
+
+
+
+
+
+/*calendar today*/
+.today{
+  background:yellow;
+}
+
+.buton_m{
+  color: #ffffff;
+  padding:5px 30px;/*spaces*/
+  font-size:20px ;
+  text-decoration: none;/*remove underscore*/
+  background: #134994;
+  display: inline-block;
+
+}
+
+
+
+/*calendar*/
+h2 {
+text-align: center;
+color: #134994;
+margin-bottom: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+th {
+background-color: #134994;
+color: #ffffff;/*white*/
+padding: 10px;
+text-align: left;
+}
+td {
+border: 1px solid #134994;
+padding: 10px;
+}
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+tr:hover {
+background-color: #e1e1e1;
+}
+
